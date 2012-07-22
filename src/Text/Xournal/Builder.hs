@@ -20,7 +20,7 @@ import qualified Data.ByteString.Lazy as L
 import Blaze.ByteString.Builder
 import Blaze.ByteString.Builder.Char8 (fromChar, fromString)
 import Data.Double.Conversion.ByteString 
-import Data.Monoid
+import Data.Monoid (Monoid , mappend, mconcat)
 import Data.Strict.Tuple
 
 infixl 4 <>
